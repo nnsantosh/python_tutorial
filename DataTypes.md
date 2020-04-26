@@ -118,11 +118,11 @@ Similar to map in other languages. <br/>
 myDict = {'key1':'value1','key2':'value2'} <br/>
 To access value1 use myDict['key1'] <br/>
 
-To grab all keys: <br/>
+### To grab all keys: <br/>
 myDict.keys() <br/>
 Output will be dict_keys(['key1', 'key2']) <br/>
 
-To grab items:  <br/>
+### To grab items:  <br/>
 myDict.items() <br/>
 Output will be dict_items([('key1', 'value1'), ('key2', 'value2')]) <br/>
 Notice the output is tuple elements <br/>
