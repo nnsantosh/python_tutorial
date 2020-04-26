@@ -112,6 +112,13 @@ To grab element 200 we can use mylist[2][1] <br/>
  print(mylist) Output will be [ 1,2] <br/>
  print(last) Output will be 3  <br/>
  
+ By default last element of list is popped of the list. But we can indicate specifically which element to pop using index of element: <br/>
+ mylist.pop(0) <br/>
+ 
+### To check if element present in list
+1 in [1,2,3] <br/>
+Output will be True <br/>
+ 
 ### Dict (dict in python)
 
 Similar to map in other languages. <br/>
