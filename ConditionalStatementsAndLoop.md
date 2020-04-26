@@ -34,3 +34,9 @@ Output will be: <br/>
 2<br/>
 3<br/>
 4<br/>
+
+## while loop
+i = 1 <br/>
+while i < 4: <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;print("i is {}".format(i)) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;i = i + 1 <br/>
