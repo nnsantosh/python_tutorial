@@ -32,3 +32,16 @@ def myFunc(name="No NAME"): <br/>
 
 myFunc() <br/>
 Output will be hello NO NAME <br/>
+
+### Function returning value
+
+def squareFunc(num):  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;return num**2  <br/>
+    
+result = squareFunc(4)  <br/>
+print(result)  <br/>
+
+Output will be 16  <br/>
+
+
+
