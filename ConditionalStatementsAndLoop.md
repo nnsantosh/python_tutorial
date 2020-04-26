@@ -24,4 +24,13 @@ else: <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;print('nope!') <br/>
 
 Output will be second condition true! <br/>
-    
+
+## for loop
+mylist = [1,2,3,4] <br/>
+for item in mylist: <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;print(item) <br/>
+Output will be: <br/>
+1<br/>
+2<br/>
+3<br/>
+4<br/>
