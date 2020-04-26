@@ -43,5 +43,29 @@ print(result)  <br/>
 
 Output will be 16  <br/>
 
+## Lambdas
+
+Syntax: lambda arguments : expression <br/>
+Consider below function: <br/>
+def x(a): <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;return a + 10 <br/>
+
+This can be written as: <br/>
+x = lambda a : a + 10 <br/>
+print(x(5)) <br/>
+Output will be 15 <br/>
+
+### Why Use Lambda functions
+The power of lambda is better shown when you use them as an anonymous function inside another function. <br/>
+Say you have a function definition that takes one argument, and that argument will be multiplied with an unknown number: <br/>
+def myfunc(n): <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;return lambda a : a * n <br/>
+
+Use that function definition to make a function that always doubles the number you send in: <br/>
+mydoubler = myfunc(2) <br/>
+mydoubler(5) Output will be 10 <br/>
+Use that function definition to make a function that always triples the number you send in: <br/>
+mytripler = myfunc(3) <br/>
+mytripler(5) Output will be 15 <br/>
 
 
