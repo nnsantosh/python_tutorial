@@ -55,6 +55,18 @@ list(range(0,5)) <br/>
 
 ## List comprehension
 
+Consider below for loop: <br/>
+mylist = [1,2,3,4,5] <br/>
+mySquaredList = [] <br/>
+for num in mylist: <br/>
+    mySquaredList.append(num ** 2) <br/>
+print(mySquaredList) <br/>
+Output will be: [1, 4, 9, 16, 25] <br/>
 
+Same thing can be achieved using: <br/>
+mylist = [1,2,3,4,5] <br/>
+mySquaredList = [ num**2  for num in mylist ] <br/>
+print(mySquaredList) <br/>
+Output will be: [1, 4, 9, 16, 25] <br/>
 
 
