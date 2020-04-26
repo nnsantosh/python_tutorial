@@ -68,6 +68,11 @@ Output will be : My Name is Santosh, my id is 10 <br/>
 print("First: {x} Second: {y}".format(x='XXX',  y='YYY')) <br/>
 Output will be: First: XXX Second: YYY <br/>
 
+Some useful methods of String: <br/>
+y.tolower() <br/>
+y.split() <br/>
+
+
 ### Float number (float in python)
 
 x = 10.0 <br/>
@@ -100,11 +105,27 @@ We can also use nested lists(list having another list as element)" <br/>
 Example mylist = [1,2.[100,200]] <br/>
 To grab element 200 we can use mylist[2][1] <br/>
 
+### Pop something of a list
+ mylist = [1,2,3] <br/>
+ To remove last element of the list <br/>
+ last = mylist.pop() <br/>
+ print(mylist) Output will be [ 1,2] <br/>
+ print(last) Output will be 3  <br/>
+ 
 ### Dict (dict in python)
 
 Similar to map in other languages. <br/>
 myDict = {'key1':'value1','key2':'value2'} <br/>
 To access value1 use myDict['key1'] <br/>
+
+To grab all keys: <br/>
+myDict.keys() <br/>
+Output will be dict_keys(['key1', 'key2']) <br/>
+
+To grab items:  <br/>
+myDict.items() <br/>
+Output will be dict_items([('key1', 'value1'), ('key2', 'value2')]) <br/>
+Notice the output is tuple elements <br/>
 
 ### Boolean (bool in python)
 
