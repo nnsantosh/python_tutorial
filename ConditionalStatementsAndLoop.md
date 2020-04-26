@@ -26,6 +26,7 @@ else: <br/>
 Output will be second condition true! <br/>
 
 ## for loop
+
 mylist = [1,2,3,4] <br/>
 for item in mylist: <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;print(item) <br/>
@@ -36,6 +37,7 @@ Output will be: <br/>
 4<br/>
 
 ## while loop
+
 i = 1 <br/>
 while i < 4: <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;print("i is {}".format(i)) <br/>
@@ -44,3 +46,15 @@ Output will be: <br/>
 i is 1 <br/>
 i is 2 <br/>
 i is 3 <br/>
+
+## range
+
+mylist = [0,1,2,3,4] <br/>
+The same list can be created using range as shown below: <br/>
+list(range(0,5)) <br/>
+
+## List comprehension
+
+
+
+
