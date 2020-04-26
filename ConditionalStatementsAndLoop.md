@@ -40,3 +40,7 @@ i = 1 <br/>
 while i < 4: <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;print("i is {}".format(i)) <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;i = i + 1 <br/>
+Output will be: <br/>
+i is 1 <br/>
+i is 2 <br/>
+i is 3 <br/>
